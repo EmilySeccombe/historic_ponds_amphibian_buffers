@@ -1,4 +1,4 @@
-# shropshire_amphs
+# Historic Ponds and Amphibian Buffers
 
 Takes the list of Grid References of ponds provided for Shropshire. Provided by Froglife.
 Takes a dataset of amphibian records in Shropshire. Obtained from NBN Atlas.
