@@ -73,8 +73,8 @@ for (pkg in desired_packages) {
 
 
 # Read in and tidy data ----
-# Read in the amphibian data:
-amphibian_data <- read.csv("amph_shrop_2018_2025/amph_shrop_2018_2025.csv")
+# Read in the amphibian data downloaded from NBN:
+amphibian_data <- read.csv("county_amphib_data/county_amphib_data.csv")
 amphibian_data <- amphibian_data %>% filter(Start.date.year >= year_onwards)
 
 # Read in the grid reference list:
